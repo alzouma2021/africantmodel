@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Usecase" version="4">
+  <OBJECT>
+    <ID name="Usecase" mc="Standard.Package" uid="c76d5f2e-f9c8-4cb8-8f96-5122c5baa241"/>
+    <PID name="projet" mc="Standard.Package" uid="9fdca3b4-80e2-415e-b874-0d4cdc0a6664"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Usecase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CreerUneCompagnie" mc="Standard.UseCase" uid="b8da8896-b1f6-4d6a-9fd4-6491a8dca440"/>
+        <COMPID name="ModifierUneCompagnie" mc="Standard.UseCase" uid="6c4aaf28-ac49-4cd5-8191-aa5129f9a1c4"/>
+        <COMPID name="ActiverUneCompagnie" mc="Standard.UseCase" uid="eb99778e-50d7-4b29-a94d-ffe53062de41"/>
+        <COMPID name="DesactiverUneCompagnie" mc="Standard.UseCase" uid="0583b443-6b0d-4871-ba96-4795aab81532"/>
+        <COMPID name="SupprimerUneCompagnie" mc="Standard.UseCase" uid="556cef08-ceeb-49b1-9e92-7f7b3192efc9"/>
+        <COMPID name="validerUneDemandeAdhesion" mc="Standard.UseCase" uid="95db1726-937b-441a-8ac8-2a501dec6a23"/>
+        <COMPID name="SoumettreUneDemandeAdhesion" mc="Standard.UseCase" uid="0d19f61d-85b6-4b03-a450-8e6561292a75"/>
+        <COMPID name="CreerUneDemandeAdhesion" mc="Standard.UseCase" uid="0032b7a8-2383-4973-9f71-27f02a49800a"/>
+        <COMPID name="ModifierUneDemandeAdhesion" mc="Standard.UseCase" uid="8efc90a3-d95e-46f3-8295-bd926abbc845"/>
+        <COMPID name="SupprimerUneDemandeAdhesion" mc="Standard.UseCase" uid="c3bb59d0-202c-44fe-9681-3c40711d3883"/>
+        <COMPID name="Admin" mc="Standard.Actor" uid="f17a7b4a-2859-415c-b325-923f80c719cf"/>
+        <COMPID name="Compagnie" mc="Standard.Actor" uid="70c14964-439a-43e2-be50-a6455725b218"/>
+        <COMPID name="AccpeterUneDemandeAdhesion" mc="Standard.UseCase" uid="33b749f8-6b9c-4528-ae79-0c8ae5d543b9"/>
+        <COMPID name="RefuserUneDemandeAdhesion" mc="Standard.UseCase" uid="8077aa98-2057-4f82-9c71-803fdea90b9f"/>
+        <COMPID name="CreerUnUtilisateur" mc="Standard.UseCase" uid="30c1a623-e6a7-4b2e-a299-826daa6c4dc2"/>
+        <COMPID name="ModifierUnUtilisateur" mc="Standard.UseCase" uid="0ca3101e-4f1b-45f2-9c72-942f5a803baf"/>
+        <COMPID name="SupprimerUnUtilisateur" mc="Standard.UseCase" uid="bfd9e21b-6320-48a8-9a30-3ea1fd80e02c"/>
+        <COMPID name="AuthentifierUnUtilisateur" mc="Standard.UseCase" uid="cf3ec8f9-1fa9-46ae-a8f5-6740603b8323"/>
+        <COMPID name="AuthentifierViaPlateforme" mc="Standard.UseCase" uid="43699ecc-5985-4cc6-8af8-6339c7df9c6e"/>
+        <COMPID name="AuthentifierViaTierFournisseur" mc="Standard.UseCase" uid="94107b8a-2481-4149-a3fa-15cd58ef61a2"/>
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="1836a6e8-ff3b-45bb-ae25-df0c77750129"/>
+        <COMPID name="ActiverUtilisateur" mc="Standard.UseCase" uid="6b2e1812-1bd5-4820-b34b-fc0006ff513b"/>
+        <COMPID name="DesactiverUnUtilisateur" mc="Standard.UseCase" uid="4c4a891e-389c-4507-983e-f49782c8f444"/>
+        <COMPID name="CreerUnProfil" mc="Standard.UseCase" uid="a36f7609-4f41-4a3b-881c-fdc6d9968f3c"/>
+        <COMPID name="CreerUnRole" mc="Standard.UseCase" uid="e58edca1-8999-48b3-af71-3bb3bc58d2fd"/>
+        <COMPID name="CreerUneReservationBillet" mc="Standard.UseCase" uid="8c2a929b-2d64-436a-8d2f-6a2d2072970e"/>
+        <COMPID name="ModifierUneReservationBillet" mc="Standard.UseCase" uid="dc0da938-15e4-445f-96ea-a869c7c69da4"/>
+        <COMPID name="SupprimerUneReservationBillet" mc="Standard.UseCase" uid="39b17546-6a90-4a11-b0b0-e1b79bcd75f4"/>
+        <COMPID name="SoumettreUneReservationBillet" mc="Standard.UseCase" uid="3d5fa43b-44d3-4b22-8f16-3b81519d56aa"/>
+        <COMPID name="ValiderUneReservationBillet" mc="Standard.UseCase" uid="2744e4f0-7718-47e1-90ba-c62d7c549f4c"/>
+        <COMPID name="AccepterUneReservationBillet" mc="Standard.UseCase" uid="d9150366-1786-4c35-9a82-c8e02d1aff5f"/>
+        <COMPID name="RefuserUneReservationBillet" mc="Standard.UseCase" uid="a705b36b-f1cd-4309-8cb9-6ea77b789000"/>
+        <COMPID name="Voyageur" mc="Standard.Actor" uid="ff90b085-e548-4772-9932-8598d50f5ac0"/>
+        <COMPID name="CreerModifierUneOffreVoyage" mc="Standard.UseCase" uid="dec5ee78-de6e-4b26-af81-d3877d97cc5e"/>
+        <COMPID name="ValiderUneOffreVoyage" mc="Standard.UseCase" uid="b0049e4f-1c5d-4291-bafc-94e4befb6308"/>
+        <COMPID name="SuppresionUneOffreVoyage" mc="Standard.UseCase" uid="c6af5ab1-edc8-437d-b197-cae1e93f2c76"/>
+        <COMPID name="Compagnie" mc="Standard.Actor" uid="ed0b32df-07a5-4905-87d9-1722d03b3b53"/>
+        <COMPID name="CreerModiferValeurCaracteristiqueOffreVoyage" mc="Standard.UseCase" uid="ed92e580-e4d1-402a-a839-4745084999f5"/>
+        <COMPID name="CreerTypeBagage" mc="Standard.UseCase" uid="a6803ff9-ed50-47ae-9c8f-b6520d335758"/>
+        <COMPID name="ModifierTypeBagage" mc="Standard.UseCase" uid="c4aea678-2508-4e3a-97a0-2eb77389b8c5"/>
+        <COMPID name="SupprimerTypeBagage" mc="Standard.UseCase" uid="da8350fc-fbfa-4abc-a7ab-6122b0d321f5"/>
+        <COMPID name="CreerModifierPrixOffreVoyage" mc="Standard.UseCase" uid="dc11ba01-5fc0-41ca-8622-0b8a874d6f77"/>
+        <COMPID name="CreerModifierJourSemaine" mc="Standard.UseCase" uid="a2fad7da-e1fa-4db8-9ffa-9afc10024e3c"/>
+        <COMPID name="Programme" mc="Standard.UseCase" uid="6201b80b-70b9-45e7-aabf-98e7e2f26c20"/>
+        <COMPID name="CreerUnAbonnement" mc="Standard.UseCase" uid="76311ade-6e0a-41b5-b417-f876030459f4"/>
+        <COMPID name="ModifierUnAbonnement" mc="Standard.UseCase" uid="d9c4a424-0ac2-460c-9f3f-e1afa0ef1bf7"/>
+        <COMPID name="SupprimerUnAbonnement" mc="Standard.UseCase" uid="57139a48-0aed-4243-a363-88c70d097af5"/>
+        <COMPID name="Compagnie" mc="Standard.Actor" uid="5b267618-5756-4390-b225-638c16c3a32d"/>
+        <COMPID name="CreerModifierUnModePaiement" mc="Standard.UseCase" uid="e29f78d5-71e2-460c-899f-92fc182d040e"/>
+        <COMPID name="SupprimerUnModePaiement" mc="Standard.UseCase" uid="3ba11412-8db1-4ec6-8269-528e25f1509d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GestionCompagnie" mc="Standard.UseCaseDiagram" uid="2af8c40d-9582-471d-b6d8-19d119962f51"/>
+        <COMPID name="GestionUtilisateurs" mc="Standard.UseCaseDiagram" uid="91ade73f-b448-464a-85b5-021858e3c1f5"/>
+        <COMPID name="GestionReservationBillet" mc="Standard.UseCaseDiagram" uid="13b34208-3245-47ac-9410-6b6c8f924bfd"/>
+        <COMPID name="GestionOffreVoyage" mc="Standard.UseCaseDiagram" uid="6141cd3e-3456-4289-bac0-98d56d434e4c"/>
+        <COMPID name="GestionValeurCaracteristiqueOffreVoyage" mc="Standard.UseCaseDiagram" uid="71238f41-bfa8-4e72-8855-59a8f3867363"/>
+        <COMPID name="GestionAbonnement" mc="Standard.UseCaseDiagram" uid="25e1d60e-21ef-49d4-af06-bd0c5b943d57"/>
+        <COMPID name="GestionModePaiement" mc="Standard.UseCaseDiagram" uid="bfc62377-b74d-4484-a423-48386144f662"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

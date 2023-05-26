@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CompagnieBusiness" version="4">
+  <OBJECT>
+    <ID name="CompagnieBusiness" mc="Standard.Package" uid="9a2388f1-8bc5-4728-9934-fceee8ca6fe4"/>
+    <PID name="ClassBusiness" mc="Standard.Package" uid="71a7a30b-2fac-435f-9242-9282a3e8ecd6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CompagnieBusiness]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompagnieBussiness" mc="Standard.Class" uid="f6d04c72-76fd-4352-953e-d42823afb1d2"/>
+        <COMPID name="VilleBusiness" mc="Standard.Class" uid="5c6ecc07-7a57-4e85-be28-ebabc437a55e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GestionCompagnieBusiness" mc="Standard.ClassDiagram" uid="655606c7-abd0-4387-8c62-f28b1f74098c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

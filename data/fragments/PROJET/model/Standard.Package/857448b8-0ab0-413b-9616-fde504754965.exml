@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Repository" version="4">
+  <OBJECT>
+    <ID name="Repository" mc="Standard.Package" uid="857448b8-0ab0-413b-9616-fde504754965"/>
+    <PID name="Modele" mc="Standard.Package" uid="73b78527-e522-4796-9028-8f002c55c598"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompagnieRepository" mc="Standard.Package" uid="d1ec3b74-5a60-4552-803b-eb3f752ba5ee"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modele" version="4">
+  <OBJECT>
+    <ID name="Modele" mc="Standard.Package" uid="73b78527-e522-4796-9028-8f002c55c598"/>
+    <PID name="projet" mc="Standard.Package" uid="9fdca3b4-80e2-415e-b874-0d4cdc0a6664"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modele]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassDTO" mc="Standard.Package" uid="a3a6f504-1ed2-4715-826a-540fa4bffbf2"/>
+        <COMPID name="InterfaceRepository" mc="Standard.Package" uid="857448b8-0ab0-413b-9616-fde504754965"/>
+        <COMPID name="ClassDomaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+        <COMPID name="ClassBusiness" mc="Standard.Package" uid="71a7a30b-2fac-435f-9242-9282a3e8ecd6"/>
+        <COMPID name="InterfaceTransformer" mc="Standard.Package" uid="12b2598d-5f91-4c40-8328-621220ea9872"/>
+        <COMPID name="ClassController" mc="Standard.Package" uid="200dc265-cafe-4721-bd28-f345b247982f"/>
+        <COMPID name="FrontEnd" mc="Standard.Package" uid="e06bf1c4-ffc1-4ad9-afaf-20166048b89c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

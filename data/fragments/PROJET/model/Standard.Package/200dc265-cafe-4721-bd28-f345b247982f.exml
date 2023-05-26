@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Controller" version="4">
+  <OBJECT>
+    <ID name="Controller" mc="Standard.Package" uid="200dc265-cafe-4721-bd28-f345b247982f"/>
+    <PID name="Modele" mc="Standard.Package" uid="73b78527-e522-4796-9028-8f002c55c598"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Controller]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompagnieController" mc="Standard.Package" uid="e4a109a9-7456-4102-8a16-8e0babe47a85"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

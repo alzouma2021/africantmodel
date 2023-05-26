@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Utilisateur" version="4">
+  <OBJECT>
+    <ID name="Utilisateur" mc="Standard.Package" uid="5c349c67-0336-4e5e-b2fb-bc650f4f4c65"/>
+    <PID name="ClassDomaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Utilisateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utilisateur" mc="Standard.Class" uid="db0ff324-a6f0-40b9-8ba9-9cc0f5abd998"/>
+        <COMPID name="Profil" mc="Standard.Class" uid="460d533d-7df5-495e-9006-37fc26e4ebac"/>
+        <COMPID name="Role" mc="Standard.Class" uid="5e57650a-39b1-4097-ad1c-c96c8e2b66b0"/>
+        <COMPID name="ProfilRole" mc="Standard.Class" uid="e13b5f25-a8ad-4f41-bfe9-4132c2a2fbd7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GestionUtilisateur" mc="Standard.ClassDiagram" uid="654e6f3c-2e27-4537-b6f5-1e9e33590645"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

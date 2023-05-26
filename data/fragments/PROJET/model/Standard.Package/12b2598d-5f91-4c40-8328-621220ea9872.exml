@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Transformer" version="4">
+  <OBJECT>
+    <ID name="Transformer" mc="Standard.Package" uid="12b2598d-5f91-4c40-8328-621220ea9872"/>
+    <PID name="Modele" mc="Standard.Package" uid="73b78527-e522-4796-9028-8f002c55c598"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Transformer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompagnieTransformer" mc="Standard.Package" uid="9b8310a0-aa42-4af7-abfa-7f66e98a5fbf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

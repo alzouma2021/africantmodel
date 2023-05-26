@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UtilisateurDTO" version="4">
+  <OBJECT>
+    <ID name="UtilisateurDTO" mc="Standard.Package" uid="c9f5df86-3a8d-4f90-8517-cb29c80a9af8"/>
+    <PID name="ClassDTO" mc="Standard.Package" uid="a3a6f504-1ed2-4715-826a-540fa4bffbf2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UtilisateurDTO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="GestionUtilisateurDTO" mc="Standard.ClassDiagram" uid="9a88021d-7c26-4044-9552-b43098fa7f0f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

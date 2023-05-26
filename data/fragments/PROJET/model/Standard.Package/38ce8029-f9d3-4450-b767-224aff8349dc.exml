@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Reservation" version="4">
+  <OBJECT>
+    <ID name="Reservation" mc="Standard.Package" uid="38ce8029-f9d3-4450-b767-224aff8349dc"/>
+    <PID name="Domaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Reservation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ReservationBillet" mc="Standard.Class" uid="44ed5be3-3e88-4cce-b7b7-1075268f3851"/>
+        <COMPID name="ValeurCaracteristiqueReservationBillet" mc="Standard.Class" uid="2dd99c3f-7c1f-4b89-ac1a-f7712e36f4f0"/>
+        <COMPID name="ProprieteReservationBillet" mc="Standard.Class" uid="d28c513d-d334-4f91-bd04-ec4c006b708f"/>
+        <COMPID name="NombrePlace" mc="Standard.Class" uid="c3db93dd-da19-42b1-a71b-0480f519c357"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ReservationBillet" mc="Standard.ClassDiagram" uid="7e601524-1042-40a9-a8af-197b89198402"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

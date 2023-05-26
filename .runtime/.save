@@ -1,0 +1,11 @@
+#Wed Jan 11 07:26:31 GMT 2023
+org.modelio.app.diagram.editor.OpenedDiagrams4='GestionUtilisateurs' {91ade73f-b448-464a-85b5-021858e3c1f5} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='OffreVoyage' {767edd9c-1f3b-428c-ac51-e790ec4fdadb} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='GestionReservationBillet' {13b34208-3245-47ac-9410-6b6c8f924bfd} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='GestionCompagnie' {2af8c40d-9582-471d-b6d8-19d119962f51} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='GestionCompagnie' {945e878b-d3ab-4d21-a512-9f258368a127} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams9='DiagrammeSequenceGeneral' {c8bdbffb-f45a-4f2a-bc32-2f3a5cf4010a} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams8='GestionDocument' {fb022aba-653d-4246-a0b6-c9fe2f96acd8} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='ReservationBillet' {7e601524-1042-40a9-a8af-197b89198402} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='GestionValeurCaracteristiqueOffreVoyage' {71238f41-bfa8-4e72-8855-59a8f3867363} Standard.UseCaseDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams5='GestionOffreVoyage' {6141cd3e-3456-4289-bac0-98d56d434e4c} Standard.UseCaseDiagram

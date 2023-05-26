@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VoyageDTO" version="4">
+  <OBJECT>
+    <ID name="VoyageDTO" mc="Standard.Package" uid="91e1df8c-e5a5-4020-962f-7abf605ddd5b"/>
+    <PID name="ClassDTO" mc="Standard.Package" uid="a3a6f504-1ed2-4715-826a-540fa4bffbf2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VoyageDTO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

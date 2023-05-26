@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ReservationBusiness" version="4">
+  <OBJECT>
+    <ID name="ReservationBusiness" mc="Standard.Package" uid="8046efa6-38a7-4f60-b487-3e4d4fda6644"/>
+    <PID name="ClassBusiness" mc="Standard.Package" uid="71a7a30b-2fac-435f-9242-9282a3e8ecd6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ReservationBusiness]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="GestionReservationBusiness" mc="Standard.ClassDiagram" uid="d74c4b23-c567-4bc5-a7cc-66aa9ffc95c8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Voyage" version="4">
+  <OBJECT>
+    <ID name="Voyage" mc="Standard.Package" uid="0aa09cd6-b6eb-4719-8a45-af54f07257c8"/>
+    <PID name="Domaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Voyage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OffreVoyage" mc="Standard.Class" uid="95bd6fcb-dfae-4e15-8d21-bd08ff1782da"/>
+        <COMPID name="ValeurCaracteristiqueOffreVoyage" mc="Standard.Class" uid="11d6c59d-0b3a-4c86-a5f1-c21940e52b3b"/>
+        <COMPID name="ValeurCaracteristiqueOffreVoyageInteger" mc="Standard.Class" uid="af9ec831-bbaa-4648-81e4-95498a873e66"/>
+        <COMPID name="ValeurCaracteristiqueOffreVoyageString" mc="Standard.Class" uid="730caf2d-90d2-453e-97d1-9da7be7040b9"/>
+        <COMPID name="ValeurCaracteristiqueOffreVoyageBoolean" mc="Standard.Class" uid="35df1a6a-5135-4352-81be-8afbb97d6f8d"/>
+        <COMPID name="ValeurCaracteristiqueOffreVoyageDouble" mc="Standard.Class" uid="f4aaf40b-3c13-48f0-ba02-c44678e70541"/>
+        <COMPID name="ProprieteOffreVoyage" mc="Standard.Class" uid="7559b4a1-62dc-4c88-ae2a-cbff17c457ef"/>
+        <COMPID name="ReferenceFamille" mc="Standard.Class" uid="3f2be1ad-1f81-412a-9ef9-1c2a06518907"/>
+        <COMPID name="VilleEscale" mc="Standard.Class" uid="844cf104-8673-4632-b226-3b4772fe48e8"/>
+        <COMPID name="PrixOffreVoyage" mc="Standard.Class" uid="3db023ff-7004-497c-b6aa-49bf0eb47c10"/>
+        <COMPID name="jourSemaine" mc="Standard.Class" uid="5606e680-7c78-4ada-a8bc-dd8c6759389c"/>
+        <COMPID name="Programme" mc="Standard.Class" uid="23fd45ea-bc96-44b1-930e-4cca1289aec5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="OffreVoyage" mc="Standard.ClassDiagram" uid="767edd9c-1f3b-428c-ac51-e790ec4fdadb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

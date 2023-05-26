@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Compagnie" version="4">
+  <OBJECT>
+    <ID name="Compagnie" mc="Standard.Package" uid="608033ad-d734-4925-8a2f-347d8f51bef7"/>
+    <PID name="Domaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Compagnie]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Compagnie" mc="Standard.Class" uid="acde0b8e-4714-4244-bcf1-66d37b183f97"/>
+        <COMPID name="Status" mc="Standard.Class" uid="760ed854-4248-4830-9c5c-d4df04858750"/>
+        <COMPID name="StatusCompagnie" mc="Standard.Class" uid="cd7d8239-2253-4520-8378-da62dac1d439"/>
+        <COMPID name="FamilleStatus" mc="Standard.Class" uid="7c371c27-ae86-44fb-bc84-16a6cf6ea3e3"/>
+        <COMPID name="Ville" mc="Standard.Class" uid="b08183df-7fbf-470a-98c0-aff6ba302554"/>
+        <COMPID name="Pays" mc="Standard.Class" uid="2ec335b5-7cab-4add-92aa-afd01631f77f"/>
+        <COMPID name="CompagnieBagage" mc="Standard.Class" uid="4eaee9e1-4acd-4efc-81c5-3d8c584bfab6"/>
+        <COMPID name="ModeAbonnement" mc="Standard.Class" uid="7235e0a3-79bf-478b-bc10-bdde8f536510"/>
+        <COMPID name="AbonnementPeriodique" mc="Standard.Class" uid="585918a0-30fa-4ed8-83e4-ff418b6618a0"/>
+        <COMPID name="AbonnementPrelevement" mc="Standard.Class" uid="2d0c8425-ccc7-4b3b-ab27-0237c04b9bfa"/>
+        <COMPID name="ModePaiement" mc="Standard.Class" uid="26e1eade-e0aa-4093-9125-a8aa78bc5223"/>
+        <COMPID name="Wave" mc="Standard.Class" uid="fc0ec1df-0dee-4351-bdff-c668288c4f24"/>
+        <COMPID name="OrangeMoney" mc="Standard.Class" uid="9f62e5a9-1fdf-4242-91f9-c5ee8f80e4a7"/>
+        <COMPID name="MoovMoney" mc="Standard.Class" uid="898746fe-cc7f-4be1-bfe5-5c3a66e61ae8"/>
+        <COMPID name="MTNMoney" mc="Standard.Class" uid="862ac73c-67ea-40c1-b33f-83b1a9d1f1f8"/>
+        <COMPID name="EnEspece" mc="Standard.Class" uid="8c6101ed-0042-46c7-b6a9-c7345e1d88a2"/>
+        <COMPID name="Gare" mc="Standard.Class" uid="1c099eaf-c1b3-4631-b7dd-4dd082ec6225"/>
+        <COMPID name="CompagnieAttestionTransport" mc="Standard.Class" uid="f55feeee-0178-4089-bcd3-1d8e8b249f64"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GestionCompagnie" mc="Standard.ClassDiagram" uid="945e878b-d3ab-4d21-a512-9f258368a127"/>
+        <COMPID name="GestionAbonnement" mc="Standard.ClassDiagram" uid="07fc3f7e-3cc2-4f0a-abd0-50eaa3e5997a"/>
+        <COMPID name="GestionModePaiement" mc="Standard.ClassDiagram" uid="91251e97-2054-4cb6-97db-bc4576264bf3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

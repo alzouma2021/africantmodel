@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Domaine" version="4">
+  <OBJECT>
+    <ID name="Domaine" mc="Standard.Package" uid="713e3b7a-cb82-47e3-9867-8e133d03222d"/>
+    <PID name="Modele" mc="Standard.Package" uid="73b78527-e522-4796-9028-8f002c55c598"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Domaine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Compagnie" mc="Standard.Package" uid="608033ad-d734-4925-8a2f-347d8f51bef7"/>
+        <COMPID name="Utilisateur" mc="Standard.Package" uid="5c349c67-0336-4e5e-b2fb-bc650f4f4c65"/>
+        <COMPID name="Voyage" mc="Standard.Package" uid="0aa09cd6-b6eb-4719-8a45-af54f07257c8"/>
+        <COMPID name="Reservation" mc="Standard.Package" uid="38ce8029-f9d3-4450-b767-224aff8349dc"/>
+        <COMPID name="Document" mc="Standard.Package" uid="2f3c53e7-2524-4980-8827-56a422622ee9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
